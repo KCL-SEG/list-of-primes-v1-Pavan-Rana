@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def isPrime(num):
-    for i in range(0,num):
+    for i in range(1,num):
         if(num%i==0):
             return False
     return True
