@@ -3,7 +3,7 @@
 
 def isPrime(num):
     for i in range(0,num):
-        if(num%i==0)
+        if(num%i==0):
             return False
     return True
 
