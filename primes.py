@@ -10,8 +10,8 @@ def isPrime(num):
 def primes(number_of_primes):
     list = []
     i = 2
-    while (len(list)<number_of_primes):
+    while(len(list)<number_of_primes):
         if(isPrime(i)):
-            list[number_of_primes-(number_of_primes-len(list))] = i
-        i += 1
+            list.append(i)
+        i = i+1
     return list
