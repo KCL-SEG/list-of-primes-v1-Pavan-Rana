@@ -2,9 +2,9 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def isPrime(num):
-    for i in range(1,num):
+    for i in range(1,num-1):
         if(num%i==0):
-            return False
+            return True
     return True
 
 def primes(number_of_primes):
